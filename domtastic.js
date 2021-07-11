@@ -4,5 +4,5 @@ function ldt(s) {
 }
 
 domtastic(document).on("DOMContentLoaded", () => {
-    ldt("Hello, World!!!");
+    ldt("Page Loaded!!!");
 });
