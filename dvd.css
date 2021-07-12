@@ -1,0 +1,32 @@
+/*
+https://codepen.io/stezu/pen/cmLrI
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+svg#dvd {
+    display: block;
+}
+
+.logo {
+    fill: #ffffff;
+}
+
+hr {
+    color: #ffffff;
+}

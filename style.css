@@ -1,3 +1,13 @@
 body {
+  margin: 0;
+}
+
+div#beg {
+  position: fixed;
   text-align: center;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
